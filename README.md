@@ -19,7 +19,8 @@ this project:
 * Conan (at least v1.31)
 * Clang 11
 
-EASTL is also a dependency, but Conan already has that covered.
+[EASTL](https://github.com/electronicarts/EASTL/) is also a dependency,
+but Conan already has that covered.
 
 The project also comes along with a Conan profile which you may use. It
 currently only provides a profile for Linux debug build. So, if you are using
@@ -51,9 +52,10 @@ because `corex-math` depends on it.
 
 If you are not using Conan and CMake, you can still use `corex-math`. You just
 have to make sure that you set `/path/to/corex-math/src/` as an include
-directory, and include the `corex-math` sources in the compilation. You can also
-create a custom compilation target just for `corex-math`. The steps to do this
-highly depends on your build system.
+directory, include the `corex-math` sources in the compilation, and make sure it
+has access to EASTL headers and definitions. You can also create a custom
+compilation target just for `corex-math`. The steps to do this highly depends
+on your build system.
 
 ## Notes
 At the moment, `corex-math` is guaranteed to work in an x86-64 Ubuntu
