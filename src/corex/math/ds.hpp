@@ -4,6 +4,7 @@
 #include <corex/math/ds/Circle.hpp>
 #include <corex/math/ds/Line.hpp>
 #include <corex/math/ds/LineSegments.hpp>
+#include <corex/math/ds/NPolygon.hpp>
 #include <corex/math/ds/Point.hpp>
 #include <corex/math/ds/Polygon.hpp>
 #include <corex/math/ds/Rectangle.hpp>

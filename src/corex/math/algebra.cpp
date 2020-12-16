@@ -1,7 +1,7 @@
 #include <cassert>
 
-#include <corex/math/algebra.hpp>
 #include <corex/utils.hpp>
+#include <corex/math/algebra.hpp>
 
 namespace cx
 {
